@@ -56,6 +56,6 @@ def predict_emotion():
         app.logger.error(f"Error in prediction: {str(e)}")
         return jsonify({'error': str(e)}), 500
 
-
 if __name__ == '__main__':
-    app.run(debug=True)
+    # The application will not run in debug mode and will be accessible on any IP address that can reach your server
+    app.run(debug=False, host='0.0.0.0')

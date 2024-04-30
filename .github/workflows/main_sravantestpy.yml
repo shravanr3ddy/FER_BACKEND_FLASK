@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'sravantestpy'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C0E9BE5A0C2B4E6DBDDA9284E8B33FA1 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6EE267B9B23F49A896DC050F915350F0 }}

@@ -1,4 +1,4 @@
 Flask==2.0.3
 numpy==1.19.5
 Pillow==8.3.1
-tensorflow==2.6.0  # This also installs Keras as part of the TensorFlow package
+tensorflow==2.12.0rc0 # This also installs Keras as part of the TensorFlow package
